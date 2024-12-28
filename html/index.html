@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/stayle.css">
+  </head>
+  <body  class=" bg-dark " >
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Netflix</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#1">Home</a>
+            <a class="nav-link" href="#2">abaudme</a>
+            <a class="nav-link" href="#3">Filem</a>
+            <a class="nav-link" href="#contact">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+      <!-- akhir navbar -->
+
+      <!-- conten1 -->
+       <div class="conten1 d-flex align-items-end justify-content-center" id="1">
+         <div class="conten text-center">
+            <h1 class="text-white">selamat datang di web <br> Netflix</h1>
+         </div>
+       </div>
+       <!-- akhir conten1 -->
+      <!-- conten2 -->
+       <section class="conten2 align-content-center" id="2">
+        <div class="container" >
+          <div class="row ">
+            <div class="col-md-8 text-white">
+               <h1 style="font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Nonton Tanpa Batas, Di Mana Saja, Kapan Saja</h1>
+            </div>
+          </div>
+
+            <div class="row text-white ">
+              <div class="col-md-8">
+                <p style="font-size: 18px; font-family: Arial, Helvetica, sans-serif;">Netflix adalah platform streaming yang memungkinkan Anda menonton berbagai film, acara TV, dokumenter, dan konten asli kapan saja dan di mana saja. Dengan katalog konten yang kaya dan terus bertambah, Netflix menyediakan hiburan untuk semua usia dan selera. Nikmati kualitas streaming terbaik, mulai dari HD hingga 4K Ultra HD, serta fitur unduhan untuk menonton offline. Temukan pengalaman menonton yang personal dengan rekomendasi khusus berdasarkan preferensi Anda. Bergabunglah dengan jutaan pengguna di seluruh dunia dan nikmati hiburan tanpa batas hanya di Netflix.</p>
+              </div>
+            </div>          
+        </div>
+       </section>
+
+       <!-- akhir content2 -->
+
+       <!-- conten3 -->
+        <section class="bg-black" id="3">
+       <div class="container text-center">
+        <div class="row text-center mb-5 text-danger">
+          <div class="col">
+            <h1>TERLARIS</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3 ">
+            <div class="card">
+              <img src="/img/1.jpg" class="card-img-top" alt="spodermen">
+              <div class="card-body">
+                <p class="card-text">Spider-man no way home</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/img/2.jpg" class="card-img-top" alt="spodermen">
+              <div class="card-body">
+                <p class="card-text">Joker</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/img/3.jpg" class="card-img-top" alt="spodermen">
+              <div class="card-body">
+                <p class="card-text">one piece stampide</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/img/4.jpg" class="card-img-top" alt="spodermen">
+              <div class="card-body">
+                <p class="card-text">Venom let thare be carnage</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="/img/5.jpg" class="card-img-top" alt="spodermen">
+              <div class="card-body">
+                <p class="card-text">Mufasa the lion king</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+       <!-- akhir conten3 -->
+
+       <!-- conten4 -->
+        <section id="contact" >
+          <div class="container">
+            <div class="row taxt-center text-center">
+              <div class="col">
+                <h2 class="text-white">contact</h2>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label text-white">Nama </label>
+                    <input type="text" class="form-control" id="name" aria-describedby="name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label text-white">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pesan" class="form-label text-white">pesan</label>
+                    <textarea class="form-control" id="pesan" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- akhir conten4 -->
+
+        <!-- conten5 -->
+         <footer class="bg-black text-center align-content-center mt-5">
+          <p class="text-white fw-bold fs-3">created with <a href="">tanwirul</a></p>
+         </footer>
+         <!-- akhir conten5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
