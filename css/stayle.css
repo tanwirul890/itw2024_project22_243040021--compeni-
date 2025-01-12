@@ -1,8 +1,8 @@
-
+/* navbar */
 .video-background {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 600px;
 }
 
 #background-video {
@@ -11,8 +11,92 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Pastikan video mengisi area tanpa terdistorsi */
-  z-index: -1; /* Letakkan video di belakang konten */
+  object-fit: cover; 
+  z-index: -1; 
+}
+.logo{
+color:#143350 ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
 }
 
+.logo2{
+  font-family:v;
+  font-size: 80px;
+  font-style: italic;
+  color: #143350;
+}
+/* navbar akhir */
+/* halaman1 */
+.halaman1 a{
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+ 
+}
+
+.halaman1 a:hover{
+   transform: scale(1.03);
+}
+
+.halaman1 .satu,.dua,.tiga,.empat,.lima{
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.satu{
+  background-image: url(../img/1.jpg);
+}
+.dua{
+  background-image: url(../img/2.jpg);
+}
+.tiga{
+  background-image: url(../img/3.jpg);
+}
+.empat{
+  background-image: url(../img/4.jpg);
+}
+.lima{
+  background-image: url(../img/5.jpg);
+}
+/* halaman1 */
+/* halaman2 */
+
+.halaman2{
+  background-color: #143350;
+}
+.conten-halaman2{
+  height: 600px;
+}
+
+.halaman2 p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.halaman2 p span{
+  font-family: v;
+  
+}
+
+
+
+@media screen and (max-width: 800px) {
+ .halaman2{
+  height: 700px;
+ }
+ .halaman2 img{
+  height: 450px;
+ }
+}
+
+
+.halaman3 h5 {
+  font-family: v;
+}
 
